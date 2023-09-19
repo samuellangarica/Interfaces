@@ -1,0 +1,51 @@
+*{
+    
+}
+
+body{
+    display: flex;
+}
+
+.table-of-contents {
+    height: 100%;
+    width: 15%;
+    
+}
+.content{
+    height: 100%;
+    width: 80%;
+}
+.header {
+
+}
+
+.info {
+    display: flex;
+    width: 80%;
+}
+.main-info {
+    width: 80%;
+}
+.main-info p {
+    font: 14px sans-serif;
+    margin: 7px;
+    line-height: 200%;
+}
+.side-info{
+    align-items: center;
+    height: 100%;   
+    width: auto;
+    background-color: #f8f9fa;
+    border: 1px solid black;
+}
+.side-info h2 {
+    text-align: center;
+}
+
+.side-info table{
+    width: 100%;
+}
+
+.side-info img {
+    margin: 30px;
+}
